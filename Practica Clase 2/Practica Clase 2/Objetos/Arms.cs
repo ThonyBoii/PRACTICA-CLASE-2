@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Practica_Clase_2.ObjetosM
 {
-    internal class Arms
+
+    // interface define qué métodos, propiedades o eventos debe implementar una clase
+
+    interface Arms
     {
+        string Name { get; }
+        int Damage { get; }
     }
 }

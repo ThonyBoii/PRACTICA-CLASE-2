@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Practica_Clase_2.ObjetosM
 {
-    internal class Sword : Arms
+    class Sword : Arms
     {
+        public string Name { get; } = "Espada";
+        public int Damage { get; } = 15;
     }
 }

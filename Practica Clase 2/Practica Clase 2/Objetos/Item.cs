@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Practica_Clase_2.Personajes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,9 @@ using System.Threading.Tasks;
 
 namespace Practica_Clase_2.ObjetosM
 {
-    internal class Item
+    interface Item
     {
+        string Name { get; }
+        void Use(Player player);
     }
 }
